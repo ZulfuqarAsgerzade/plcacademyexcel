@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+
+    list-style-type: none;
+
+    font-family: "Inter", sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+
+    width: 794px;
+    height: 1123px;
+
+    background-image: url(./img/wallpaper/exam_back.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+/* HEDAER */
+#header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#header img {
+    width: 120px;
+    height: 120px;
+}
+
+#header h1 {
+    color: #003763;
+    font-size: 36px;
+}
+
+
+/* PERSONAL INFO */
+#personal_info_section {
+    margin-top: 70px;
+}
+
+.personal_info_header {
+    color: #0A7DCE;
+    font-size: 18px;
+    text-align: center;
+}
+
+.personal_info_container {
+    margin: 80px 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.personal_photo {
+    width: 150px;
+    height: 150px;
+}
+
+.personal_info_list {
+    margin: 0 0 0 50px;
+
+    line-height: 32px;
+}
+
+.personal_info_list b {
+    font-weight: 600;
+}
+
+.personal_name {
+    color: #003763;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* RESULT */
+table {
+    width: 100%;
+    margin: 0 auto 40px;
+
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 0;
+
+    font-size: 9px;
+    text-align: center;
+
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #0A7DCE;
+    color: white;
+}
+
+.result_table_header {
+    margin-bottom: 40px;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.result_table_list {
+    line-height: 30px;
+}
+
+.result_table_list b {
+    font-weight: 600;
+}
+
+
+
+/* FOOTER */
+#result_info_container {
+    margin-top: 60px;
+
+    text-align: center;
+}
+
+.result_score {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
